@@ -1,3 +1,5 @@
+# Test ignore
+ignoretest.txt
 # Ignore vscode setting
 .vscode/
 
