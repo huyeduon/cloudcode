@@ -1,3 +1,6 @@
+# Ignore vscode setting
+.vscode/
+
 # Compiled source #
 ###################
 *.com
