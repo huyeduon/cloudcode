@@ -1,0 +1,35 @@
+Tunnel1 is up, line protocol is up 
+  Hardware is Tunnel
+  Description: on-prem tunnel
+  Internet address is 10.101.1.1/30
+  MTU 9922 bytes, BW 100 Kbit/sec, DLY 50000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation TUNNEL, loopback not set
+  Keepalive not set
+  Tunnel linestate evaluation up
+  Tunnel source 10.11.0.36 (GigabitEthernet3), destination 64.104.255.5
+   Tunnel Subblocks:
+      src-track:
+         Tunnel1 source tracking subblock associated with GigabitEthernet3
+          Set of tunnels with source GigabitEthernet3, 3 members (includes iterators), on interface <OK>
+  Tunnel protocol/transport IPSEC/IP
+  Tunnel TTL 255
+  Tunnel transport MTU 1422 bytes
+  Tunnel transmit bandwidth 8000 (kbps)
+  Tunnel receive bandwidth 8000 (kbps)
+  Tunnel protection via IPSec (profile "infra:overlay-1-1")
+  Last input 00:00:01, output 00:00:05, output hang never
+  Last clearing of "show interface" counters 05:43:34
+  Input queue: 0/375/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/0 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     21089 packets input, 2650898 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     39200 packets output, 5118242 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 unknown protocol drops
+     0 output buffer failures, 0 output buffers swapped out

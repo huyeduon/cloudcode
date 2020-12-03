@@ -1,5 +1,11 @@
 # Test ignore
 ignoretest.txt
+
+# Ignore python virtual env
+bin/
+include/
+lib/
+pyvenv.cfg
 # Ignore vscode setting
 .vscode/
 
