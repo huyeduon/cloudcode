@@ -13,3 +13,13 @@ variable "huyeduon_api_client_id" {
 variable "huyeduon_api_client_secret" {
   type = string
 }
+
+variable "rgName" {
+  type = string
+  default = "tfcloudrg"
+}
+
+variable "location" {
+  type = string
+  default = "eastus"
+}
