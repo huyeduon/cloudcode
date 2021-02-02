@@ -14,12 +14,10 @@ variable "huyeduon_api_client_secret" {
   type = string
 }
 
-variable "rgName" {
+variable "rg_name" {
   type = string
-  default = "tfcloudrg"
 }
 
-variable "location" {
+variable "azure_location" {
   type = string
-  default = "eastus"
 }
