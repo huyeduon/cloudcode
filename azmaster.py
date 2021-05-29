@@ -25,7 +25,7 @@ from azure.identity import ClientSecretCredential
 
 tenant_id ="e34b6079-b8db-43a4-8104-4768856bd06c"
 client_id="c4f505e2-b31b-42ad-8294-11991044cece"
-client_secret="E9LpKrW-rqF7bRE3-2aMSML4Hq~-k.R.rw"
+client_secret="E9LpKrW-rqFabdc3-2aMSML4Hq~-k.R.rw"
 
 # Get the application credentials
 app_credentials = ClientSecretCredential(tenant_id, client_id, client_secret)
