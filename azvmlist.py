@@ -7,14 +7,14 @@ from azure.identity import ClientSecretCredential
 # Info for authenticationg
 # Display name : huyeduon-restapi
 # Application (client) ID : c4f505e2-b31b-42ad-8294-11991044cece
-# Directory (tenant) ID : e34b6079-b8db-43a4-8104-4768856bd06c
-# Object ID : 52a4d658-867e-41fa-947d-2f51befd0f2d
+# Directory (tenant) ID : e34b6aa9-b8db-43a4-8104-4768856bd06c
+# Object ID : 52aaa658-867e-41fa-aa7d-2f51befd0f2d
 
-Subscription_Id="343fd6f5-2a74-4e53-95e3-d0766750dcc3"
+Subscription_Id="343aa6f5-2a74-4e53-95e3-d0766750dcc3"
 
-tenant_id ="e34b6079-b8db-43a4-8104-4768856bd06c"
-client_id="c4f505e2-b31b-42ad-8294-11991044cece"
-client_secret="E9LpKrW-rqF7bRE3-2aMSML4Hq~-k.R.rw"
+tenant_id ="e34baa079-b8db-4aa4-8104-47688aabd06c"
+client_id="c4faa5e2-b31b-aaad-8294-aa991044cece"
+client_secret="E9LpaaW-rqF7aaE3-2aMSML4Hq~-k.R.rw"
 
 credential = ServicePrincipalCredentials(
         client_id=client_id,
